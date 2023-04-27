@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <h1>Lista de Tareas</h1>
-      <TareaForm/>
+      <TareaForm agregarT={agregarTarea}/>
     </div>
   )
 }

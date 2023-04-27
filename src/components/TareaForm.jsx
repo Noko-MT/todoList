@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const TareaForm = () => {
+const TareaForm = ({ agregarT }) => {
 
     const [input, setInput] = useState('');
 
